@@ -1,0 +1,87 @@
+
+.main-color {
+    background-color: #1c1d1e;
+}
+
+.secondary-color{
+    background-color: #161719;
+}
+
+.hero {
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-100 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-70 {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-50 {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-20 {
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    background-color: #1c1d1e;
+    margin-top: 56px;
+}
+
+.navbar {
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+}
+  
+.navbar.scrolled {
+    background-color: #1f20207d;
+    backdrop-filter: blur(8px);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.75)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.app-card {
+    background-color: #dbe0e409;
+    border: 1px solid #373839;
+    padding: 20px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.card-badge {
+    background-color: #dbe0e409;
+
+}
+
+hr {
+    margin: 0;
+    color: gray;
+}

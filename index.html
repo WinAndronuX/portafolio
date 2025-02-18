@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Web</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-md">
+        <div class="container mx-auto">
+
+            <a class="navbar-brand text-white text-opacity-75" href="#">
+                <img src="https://avatars.githubusercontent.com/u/83554909?v=4" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Daniel Salazar
+            </a>
+
+            <button class="navbar-toggler text-white text-opacity-75" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link text-white text-opacity-75 active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link  text-white text-opacity-75" href="#servicios">Servicios</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-white text-opacity-75" href="#proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-white text-opacity-75" href="#certificaciones">Certificaciones</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-white text-opacity-75" href="#sobre_mi">Sobre Mi</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="inicio" class="container mx-auto hero-70 align-items-center justify-content-center text-center">
+        <h1 class="display-2 text-info fw-bold py-2">Software Developer</h1>
+        <h1 class="display-3 fw-bold text-white py-2">Daniel Salazar</h1>
+        <p class="fs-6 text-white text-opacity-75 py-2">Go (Echo, Fiber, ...) & Java (Spring Boot)<br>Linux SysAdmin</p>
+        <div class="btn-group py-2" role="group" aria-label="Default button group">
+            <a type="button" href="https://www.linkedin.com/in/ldanielsalazars" class="btn btn-outline-info">Linkedin</a>
+            <a type="button" href="https://github.com/WinAndronuX" class="btn btn-outline-info">&nbsp;Github&nbsp;</a>
+            <a type="button" href="mailto:salazarsanchezluisdaniel@hotmail.com" class="btn btn-outline-info">&nbsp;E-Mail&nbsp;</a>
+        </div>
+    </div>
+
+    <div id="servicios" class="hero secondary-color">
+        <div class="container mx-auto">
+
+            <h3 class="text-info mt-5 pt-3">Servicios</h3>
+
+            <div class="row mt-4">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="card app-card">
+                        <h5 class="card-title text-white fw-medium">Desarrollo de APIs y WebApps</h5>
+                        <p class="card-text text-white text-opacity-50">
+                            Creo soluciones escalables y eficientes con APIs robustas y aplicaciones web optimizadas.
+                            <br><br>
+                            Utilizo tecnologías como Spring Boot (Java), Echo (Go), Fiber (Go), PostgreSQL, MySQL,
+                            Docker y Swagger para diseñar sistemas que sean seguros, rápidos y fáciles de mantener.
+                            <br><br>
+                            Desde la arquitectura de la API hasta la implementación y documentación, me enfoco en construir
+                            servicios bien estructurados, listos para la integración y adaptados a las necesidades de cada proyecto.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card app-card">
+                        <h5 class="card-title text-white fw-medium">Administracion y configuracion de servidores Linux</h5>
+                        <p class="card-text text-white text-opacity-50">
+                            Optimizo, configuro y administro servidores Linux para garantizar un rendimiento seguro, eficiente y estable. Mi experiencia incluye:
+                        </p>
+                        <ul>
+                            <li class="card-text text-white text-opacity-50">
+                                Instalación y configuración de software, bases de datos y entornos de desarrollo.
+                            </li>
+                            <li class="card-text text-white text-opacity-50">
+                                Automatización de tareas mediante scripts en Bash para mejorar la eficiencia operativa.
+                            </li>
+                            <li class="card-text text-white text-opacity-50">
+                                Gestión y creacion de tareas programadas con cron para procesos recurrentes sin intervención manual.
+                            </li>
+                            <li class="card-text text-white text-opacity-50">
+                                Actualizacion del sistema operativo y limpieza de este.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="proyectos" class="hero secondary-color">
+        <div class="container mx-auto">
+
+            <h3 class="text-info mt-5 pt-3">Proyectos</h3>
+
+            <div class="row mt-4">
+
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="card app-card">
+
+                        <div id="carouselYesOLT" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="/proyectos/yesolt/0.webp" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/proyectos/yesolt/1.webp" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/proyectos/yesolt/2.webp" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/proyectos/yesolt/3.webp" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/proyectos/yesolt/4.webp" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/proyectos/yesolt/5.webp" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/proyectos/yesolt/6.webp" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/proyectos/yesolt/7.webp" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="card-title text-white fw-medium mt-3">YesOLT</h5>
+                        <p class="card-text text-white text-opacity-50">
+                            Participé en el desarrollo de una plataforma para la administración y monitorización de
+                            OLTs, integrando compatibilidad con marcas como Vsol, Huawei, Nokia y TP-Link. Mi
+                            responsabilidad principal fue la implementación de la comunicación con los dispositivos a
+                            través de los protocolos Telnet, SNMP y TR-069, permitiendo la ejecución remota de comandos
+                            y la recopilación de datos en tiempo real.
+                            <br><br>
+                            Además, diseñé y expuse estos servicios a través de endpoints API, facilitando su integración
+                            con otros módulos del sistema y mejorando la automatización de tareas operativas.
+                            <br><br>
+                            Este trabajo permitió una administración centralizada y optimizada de la infraestructura de
+                            red, mejorando la eficiencia en la gestión y monitoreo de equipos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 mb-3">
+                    <div class="card app-card">
+
+                        <div id="carouselReclutaFuturo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="/proyectos/reclutafuturo/0.webp" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/proyectos/reclutafuturo/1.webp" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/proyectos/reclutafuturo/2.webp" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/proyectos/reclutafuturo/3.webp" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/proyectos/reclutafuturo/4.webp" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/proyectos/reclutafuturo/5.webp" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/proyectos/reclutafuturo/6.webp" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/proyectos/reclutafuturo/7.webp" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="card-title text-white fw-medium mt-3">ReclutaFuturo</h5>
+                        <p class="card-text text-white text-opacity-50">
+                            Desarrollé este software para automatizar procesos en Recursos Humanos, facilitando la
+                            gestión de ofertas de trabajo y postulaciones.
+                            El sistema permite a las empresas publicar vacantes a través de la aplicación, especificando
+                            los requisitos del puesto de manera personalizada. Los postulantes pueden acceder a la bolsa
+                            de trabajo, completar un formulario y generar un CV personalizado, adaptado a los criterios
+                            de la empresa.
+                            <br><br>
+                            Para el desarrollo utilicé <b>Go (Fiber)</b> para la API, asegurando un backend eficiente y de alto
+                            rendimiento. En el frontend, implementé <b>Templ, AlpineJS y Flowbite</b>, logrando una
+                            interfaz dinámica y ligera.
+                            <br><br>
+                            Este proyecto optimiza la gestión de contrataciones al reducir tareas manuales y mejorar la
+                            experiencia tanto para empresas como para postulantes.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 mb-3">
+                    <div class="card app-card">
+
+                        <h5 class="card-title text-white fw-medium">ForoHub</h5>
+                        <p class="card-text text-white text-opacity-50">
+                            ForoHub es una API REST para la gestión de foros en línea. Proporciona una plataforma donde
+                            los usuarios pueden registrarse, crear y participar en discusiones sobre diversos temas
+                            organizados en cursos.
+                            <br><br>
+                            <b>Accede al repositorio en: </b><a class="text-info" href="https://github.com/WinAndronuX/ForoHub">GitHub</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 mb-3">
+                    <div class="card app-card">
+
+                        <h5 class="card-title text-white fw-medium">LiterAlura</h5>
+                        <p class="card-text text-white text-opacity-50">
+                            LiterAlura es una aplicacion de consola con el fin de tener un catálogo de libros apoyándose
+                            de la API de <a class="text-info" href="https://gutendex.com/">Gutendex</a> y que almacena la información en
+                            una base de datos para ofrecer una serie de opciones basada en la información obtenida.
+                            <br><br>
+                            <b>Accede al repositorio en: </b><a class="text-info" href="https://github.com/WinAndronuX/LiterAlura">GitHub</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="certificaciones" class="hero secondary-color">
+        <div class="container mx-auto">
+
+            <h3 class="text-info mt-5 pt-3">Certificaciones</h3>
+
+            <div class="row mt-4">
+
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="card app-card">
+
+                        <h5 class="card-title text-white fw-medium mt-3">Oracle Next Education F2 T6 Back-end</h5>
+                        <p class="card-text text-white text-opacity-50"><b>Formaciones</b></p>
+                        <ul>
+                            <li class="card-text text-white text-opacity-50">Desarrollo Personal G6 - ONE</li>
+                            <li class="card-text text-white text-opacity-50">Principiante en Programación G6 - ONE</li>
+                            <li class="card-text text-white text-opacity-50">Emprendimiento</li>
+                            <li class="card-text text-white text-opacity-50"> Agilidad y Protagonismo Profesional G6 - ONE</li>
+                            <li class="card-text text-white text-opacity-50">Java Orientado a Objetos G6 - ONE</li>
+                            <li class="card-text text-white text-opacity-50">Java y Spring Boot G6 - ONE</li>
+                        </ul>
+                        <p class="card-text text-white text-opacity-50">
+                            Puedes acceder al certificado en los siguientes enlaces:
+                            <br><br>
+                            <a class="text-info" href="https://app.aluracursos.com/program/certificate/33438c43-3203-4ded-850f-6d07d06e88a2">Certificado (simple)</a>
+                            <br>
+                            <a class="text-info" href="https://app.aluracursos.com/user/daniss11/fullCertificate/d6a829d210ede29514c1d29c70a7bafc">Certificado completo</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sobre_mi" class="hero secondary-color">
+        <div class="container mx-auto mb-5">
+
+            <h3 class="text-info mt-5 pt-3">Sobre Mi</h3>
+
+            <div class="row mt-4">
+
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <h4 class="text-white fw-medium">Daniel Salazar</h4>
+                    <p class="text-white text-opacity-75">
+                        Actualmente, estudio la <b>Licenciatura en Ciencias Computacionales</b> en la <b>Facultad de Ciencias
+                        Físico Matematicas</b> de la <b>Universidad Autonoma de Nuevo Leon</b>.
+                        <br>
+                        Además, soy <b>Técnico en Programacion</b> por el <b>Centro de Estudios Científicos y
+                        Tecnologicos del Estado de Guanajuato</b>.
+                        <br><br>
+                        En mis tiempos libres me gusta programar y aprender nuevas tecnologias para estar al corriente
+                        en este mundo. Soy de las personas que creen que siempre se aprende algo nuevo, por eso es que
+                        estoy en busca de nuevos retos y oportunidades.
+                        <br><br>
+                        Si tienes algún proyecto en el cual mi experiencia pueda ayudar a hacerlo realidad no dudes en
+                        contactarme ya sea por E-Mail o Linkedin, sera un placer atenderte.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="hero-20 secondary-color">
+        <div class="container mx-auto">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="text-white text-opacity-75 fs-5">
+                        &#x1F4E7;&nbsp;Contacto
+                        <br>
+                        <a class="text-info fs-6" href="mailto:salazarsanchezluisdaniel@hotmal.com" style="text-decoration: none">salazarsanchezluisdaniel@hotmal.com</a>
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-white text-opacity-50 fs-6">
+                        Este sitio ha sido desarrollado por <b>Daniel Salazar</b> utilizando <b>Bootstrap</b>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<script src="navbar-scroll.js"></script>
+
+</html>
